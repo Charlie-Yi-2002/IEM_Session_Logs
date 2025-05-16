@@ -11,7 +11,7 @@ Prompt to generate personas (using ChatGPT o4-mini) ...
 
 
 
-Prompt to generate session logs (using ChatGPT o4-mini) ...
+Prompt to generate session logs (using ChatGPT o3 until hit rate limit -> o4-mini) ...
 
 I want you to generate session logs between an enterprise/corporate worker and an internal llm agent. 
 These people will be asking work related questions, but they will not be asking the llm agent to do 
@@ -23,3 +23,8 @@ questions/answers between a worker and an LLM agent. For each persona I send, I 
 with at least 10 queries by the user per session. Meaning, I want you to generate 100 back and forth messages 
 per session. Be creative. Note: The user messages should be based on the persona but the ai-responnse should
 not be. Pretend that you are the one answering the user and give reponses that you would give.
+
+If the ai-responses are not strong then ...
+Give the ai-responses as robust as possible. Tt should be similar to a response you (chatgpt) would give. Ensure
+that each message and the corresponding ai-response is unique. They should all be different.
+
